@@ -15,6 +15,12 @@ git commit -m "two commit"
 git remote add origin https://github.com/zxcv10222/powershell.git
 git push -u origin master
 
+에러 발생(merge)
+먼저 불러오고 해야함
+git merge --allow-unrelated-histories origin/master
+
+git pull origin master
+
 
 아이디 패스워드 입력
 
