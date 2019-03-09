@@ -1,0 +1,22 @@
+https://recoveryman.tistory.com/251?category=635733
+
+초기설정
+
+git config --global user.name "zxcv10222"
+git config --global user.email zxcv10222@naver.com
+
+mkdir powershell
+cd powershell
+
+깃 허브 시작 commit 실습
+git init
+git add git초기설정.txt
+git commit -m "two commit"
+git remote add origin https://github.com/zxcv10222/powershell.git
+git push -u origin master
+
+
+아이디 패스워드 입력
+
+
+
